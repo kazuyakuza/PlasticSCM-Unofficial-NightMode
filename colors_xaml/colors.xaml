@@ -11,7 +11,7 @@
     <SolidColorBrush x:Key="IconPlasticOrange3" Color="#FFDB2F00"/>
     <SolidColorBrush x:Key="IconPlasticWhite" Color="#FFFFFFFF"/>
     <SolidColorBrush x:Key="SearchArrowFill" Color="#00B190"/>
-    <SolidColorBrush x:Key="NotificationOverlayFill" Color="#FFFC5649" />
+    <SolidColorBrush x:Key="NotificationOverlayFill" Color="Black" /> <!-- orig. #FFFC5649 -->
     <SolidColorBrush x:Key="NotificationOverlayStroke" Color="#FFFC3C32" />
     <!-- Brushes -->
     <SolidColorBrush x:Key="Control" Color="#505050" />
@@ -22,7 +22,7 @@
     <SolidColorBrush x:Key="SeparatorDark" Color="#A0A0A0" />
     <SolidColorBrush x:Key="SeparatorLight" Color="#505050"/>
     <SolidColorBrush x:Key="SplitterForeground" Color="#828282" />
-    <SolidColorBrush x:Key="TextBoxBackground" Color="White" />
+    <SolidColorBrush x:Key="TextBoxBackground" Color="Black" /><!-- orig. White -->
     <SolidColorBrush x:Key="TextBoxForeground" Color="#000000" />
     <!-- I3ContextMenuButton brushes -->
     <SolidColorBrush x:Key="ContextMenuButtonTriangleStroke" Color="#FFFFFF"/>
@@ -56,10 +56,10 @@
     <Color x:Key="NativeButtonDisabledBorder">#D9D9D9</Color>
     <Color x:Key="NativeButtonDisabledForeground">#ADADAD</Color>
     <!-- I3TextBox colors -->
-    <Color x:Key="TextBoxFocusedBackground">White</Color>
-    <Color x:Key="TextBoxFocusedBorder">#87bff0</Color>
-    <Color x:Key="TextBoxBorder">LightGray</Color>
-    <Color x:Key="TextBoxDisabledBackground">#EAEAEA</Color>
+    <Color x:Key="TextBoxFocusedBackground">Black</Color><!-- orig. White -->
+    <Color x:Key="TextBoxFocusedBorder">#008000</Color><!-- orig. #87bff0 -->
+    <Color x:Key="TextBoxBorder">#ffffff</Color><!-- orig. LightGray -->
+    <Color x:Key="TextBoxDisabledBackground">#2f4f4f</Color><!-- orig. #EAEAEA -->
     <!-- TreeListView colors -->
     <Color x:Key="TreeListViewSelectedRow">#CDCDCD</Color>
     <Color x:Key="TreeListViewSelectedUnfocused">#E3E3E3</Color>
