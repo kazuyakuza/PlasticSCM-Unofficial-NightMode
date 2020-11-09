@@ -2,7 +2,8 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
   <!-- BRUSHES -->
-    <SolidColorBrush x:Key="XMergeControl" Color="Black" /> <!-- orig. #505050 />
+    <SolidColorBrush x:Key="XMergeControl" Color="Black" />
+    <!-- orig. #505050 />
     <SolidColorBrush x:Key="XMergeForeground" Color="#FFFFFF" />
     <SolidColorBrush x:Key="XMergeSeparatorDark" Color="#A0A0A0" />
     <SolidColorBrush x:Key="XMergeSeparatorLight" Color="#505050"/>
@@ -20,7 +21,8 @@
     <SolidColorBrush x:Key="XMergeIconWarningFill" Color="#FF8000"/>
     <SolidColorBrush x:Key="XMergeIconErrorFill" Color="#E3471B"/>
     <SolidColorBrush x:Key="XMergeSearchArrowFill" Color="#00B190"/>
-    <SolidColorBrush x:Key="XMergeNotificationOverlayFill" Color="Black" /> <!-- orig. #FFFC5649 -->
+    <SolidColorBrush x:Key="XMergeNotificationOverlayFill" Color="Black" />
+    <!-- orig. #FFFC5649 -->
     <SolidColorBrush x:Key="XMergeNotificationOverlayStroke" Color="#FFFC3C32" />
 
   <!-- COLORS FOR STYLES -->
@@ -48,8 +50,10 @@
     <Color x:Key="XMergeNativeButtonDisabledBorder">#D9D9D9</Color>
     <Color x:Key="XMergeNativeButtonDisabledForeground">#ADADAD</Color>
     <!-- I3TextBox colors -->
-    <Color x:Key="I3TextBoxFocusedBackground">Black</Color><!-- orig. White -->
+    <Color x:Key="I3TextBoxFocusedBackground">Black</Color>
+    <!-- orig. White -->
     <Color x:Key="I3TextBoxFocusedBorder">#87bff0</Color>
     <Color x:Key="I3TextBoxBorder">LightGray</Color>
-    <Color x:Key="I3TextBoxDisabledBackground">Black</Color><!-- orig. #EAEAEA -->
+    <Color x:Key="I3TextBoxDisabledBackground">Black</Color>
+    <!-- orig. #EAEAEA -->
 </ResourceDictionary>
